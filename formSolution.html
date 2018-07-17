@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>formSolution</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form method="post">
+
+  <label for="fN">First Name: </label>
+  <input id="fN" type="text" name="firstName" placeholder="John" required>
+  <label for="lN">Last Name: </label>
+  <input id="lN" type="text" name="lastName" placeholder="Smith" required>
+
+  <p>
+    <label for="m">Male </label>
+    <input id="m" type="radio" name="gender" value="male" required>
+    <label for="f">Female </label>
+    <input id="f" type="radio" name="gender" value="female" required>
+    <label for="o">Other </label>
+    <input id="o" type="radio" name="gender" value="other" required>
+  </p>
+
+  <p>
+    <label for="email">Email: </label>
+    <input id="email" type="email" name="email" placeholder="your@email.com" required>
+    <label for="password">Password: </label>
+    <input id="password" type="password" name="password"
+    placeholder="your password" minlength="4"
+       maxlength="10" required>
+  </p>
+
+  <p>
+    <label for="birthday">Birthday: </label>
+    <input id="birthday" type="date" name="birthday" required>
+  </p>
+
+  <p>
+    <label for="tos">I agree to the terms and conditions</label>
+    <input id="tos" type="checkbox" name="tos" required>
+  </p>
+<input type="submit">
+</form>
+
+
+</body>
+</html>
