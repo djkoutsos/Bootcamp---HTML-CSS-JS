@@ -1,0 +1,28 @@
+body {
+  background-color: lightGrey;
+}
+div {
+  background-color: black
+}
+p {
+  color: white;
+}
+
+#list {
+  background-color: darkGrey;
+  border: 5px black double;
+}
+
+#special{
+  color: gold;
+}
+
+li {
+  border: 1px black dotted;
+}
+li:nth-of-type(even){
+  background-color: rgba(255, 255, 255, 0.2)
+}
+ .complete {
+   text-decoration: line-through;
+ }
