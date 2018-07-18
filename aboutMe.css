@@ -1,0 +1,22 @@
+body {
+  background: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fi1.kym-cdn.com%2Fentries%2Ficons%2Ffacebook%2F000%2F010%2F827%2Fshirt-thumb-doom-god-mode.jpg&f=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1 {
+  color:white;
+}
+h2 {
+  color: rgba(11, 99, 150, .7);
+}
+
+h3 {
+  color:white;
+  background-color: red;
+}
+
+li {
+  color:red;
+}
