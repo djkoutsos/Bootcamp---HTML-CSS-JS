@@ -1,0 +1,28 @@
+/* div{
+  width: 100px;
+  float: left;
+}
+
+#one{
+background-color: red;
+}
+
+#two{
+background-color: purple;
+} */
+
+img{
+
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+h1{
+  font-family: Raleway;
+  font-weight: 800;
+  margin: 1.66%;
+  padding-bottom: 1.66%;
+  border-bottom: 1px solid darkGrey;
+  width: 30%;
+}
